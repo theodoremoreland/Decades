@@ -1,0 +1,104 @@
+/* ___________________ FONTS ____________________________ */
+
+@font-face {
+  font-family: sarabun-bold;
+  src: url("../fonts/Sarabun/Sarabun-Bold.ttf");
+}
+
+@font-face {
+  font-family: sarabun-regular;
+  src: url("../fonts/Sarabun/Sarabun-Regular.ttf");
+}
+
+@font-face {
+  font-family: sarabun-light;
+  src: url("../fonts/Sarabun/Sarabun-Light.ttf");
+}
+
+@font-face {
+  font-family: sarabun-italic;
+  src: url("../fonts/Sarabun/Sarabun-Italic.ttf");
+}
+
+/* ------------------- VARIABLES ------------------- */
+
+:root {
+  --primary-color: rgb(219, 222, 227);
+  --secondary-color: rgb(14, 17, 40);
+  --tertiary-color: #18181c;
+  --quinary-color: rgb(0, 171, 245);
+  --quaternary-color: rgb(255, 95, 104);
+}
+
+/* ------------------- GLOBAL ------------------- */
+
+html {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sarabun-regular;
+  background-color: var(--primary-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  padding: 7px 14px;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--quaternary-color);
+}
+
+#app-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#app-navigation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#app-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+#socials img {
+  height: 30px;
+}
