@@ -30,7 +30,7 @@
   --quaternary-color: rgb(255, 95, 104);
 }
 
-/* ------------------- GLOBAL ------------------- */
+/* ---------------- GLOBAL ---------------- */
 
 html {
   min-height: 100vh;
@@ -58,6 +58,8 @@ button {
   background-color: var(--quaternary-color);
 }
 
+/* ---------------- NAVBAR ---------------- */
+
 #app-navigation {
   display: flex;
   flex-direction: row;
@@ -77,6 +79,8 @@ button {
   flex-wrap: wrap;
   gap: 20px;
 }
+
+/* ---------------- FOOTER ---------------- */
 
 #app-footer {
   display: flex;
