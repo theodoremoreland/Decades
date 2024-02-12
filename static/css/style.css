@@ -58,9 +58,13 @@ button {
   background-color: var(--quaternary-color);
 }
 
+/* ----------------------------------------- */
+/* ---------------- DEFAULT ---------------- */
+/* ----------------------------------------- */
+
 /* ---------------- NAVBAR ---------------- */
 
-#app-navigation {
+#default #app-navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -71,7 +75,7 @@ button {
   padding: 20px;
 }
 
-#app-navigation ul {
+#default #app-navigation ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -82,7 +86,7 @@ button {
 
 /* ---------------- FOOTER ---------------- */
 
-#app-footer {
+#default #app-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -93,7 +97,7 @@ button {
   padding: 20px;
 }
 
-#socials {
+#default #socials {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -103,6 +107,14 @@ button {
   width: 100%;
 }
 
-#socials img {
+#default #socials img {
   height: 30px;
 }
+
+/* ----------------------------------------- */
+/* ---------------- 90s ---------------- */
+/* ----------------------------------------- */
+
+/* ----------------------------------------- */
+/* ---------------- 2000s ---------------- */
+/* ----------------------------------------- */
