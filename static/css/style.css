@@ -29,10 +29,10 @@
   --quinary-color: rgb(0, 171, 245);
   --quaternary-color: rgb(255, 95, 104);
 
-  --font-family-90s: Arial;
-  --font-family-2000s: Tahoma;
-  --font-family-2010s: Hammer;
-  --font-family-2020s: Helvetica;
+  --font-family-nineties: Arial;
+  --font-family-two-thousands: Tahoma;
+  --font-family-two-thousand-tens: Hammer;
+  --font-family-two-thousand-twenties: Helvetica;
 }
 
 /* ---------------- GLOBAL ---------------- */
@@ -120,14 +120,30 @@ button {
 /* ---------------- 90s ---------------- */
 /* ----------------------------------------- */
 
+body#nineties {
+  font-family: var(--font-family-nineties);
+}
+
 /* ----------------------------------------- */
 /* ---------------- 2000s ---------------- */
 /* ----------------------------------------- */
+
+body#two-thousands {
+  font-family: var(--font-family-two-thousands);
+}
 
 /* ----------------------------------------- */
 /* ---------------- 2010s ---------------- */
 /* ----------------------------------------- */
 
+body#two-thousand-tens {
+  font-family: var(--font-family-two-thousand-tens);
+}
+
 /* ----------------------------------------- */
 /* ---------------- 2020s ---------------- */
 /* ----------------------------------------- */
+
+body#two-thousand-twenties {
+  font-family: var(--font-family-two-thousand-twenties);
+}
