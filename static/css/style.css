@@ -29,9 +29,10 @@
   --quinary-color: rgb(0, 171, 245);
   --quaternary-color: rgb(255, 95, 104);
 
+  --font-family-default: sarabun-regular;
   --font-family-nineties: Arial;
   --font-family-two-thousands: Tahoma;
-  --font-family-two-thousand-tens: Hammer;
+  --font-family-two-thousand-tens: sans-serif;
   --font-family-two-thousand-twenties: Helvetica;
 }
 
@@ -41,7 +42,6 @@ html {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: sarabun-regular;
   background-color: var(--primary-color);
 }
 
@@ -51,25 +51,15 @@ body {
 }
 
 ul {
-  list-style: none;
   padding: 0;
   margin: 0;
 }
 
 button {
   padding: 0.5em 1em;
-  border: none;
-  border-radius: 15px;
-  background-color: var(--quaternary-color);
 }
 
-/* ----------------------------------------- */
-/* ---------------- DEFAULT ---------------- */
-/* ----------------------------------------- */
-
-/* ---------------- NAVBAR ---------------- */
-
-#default #app-navigation {
+.app-navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -80,7 +70,7 @@ button {
   padding: 1.5em;
 }
 
-#default #app-navigation ul {
+.app-navigation ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -89,9 +79,7 @@ button {
   gap: 20px;
 }
 
-/* ---------------- FOOTER ---------------- */
-
-#default #app-footer {
+.app-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -102,7 +90,7 @@ button {
   padding: 1.5em;
 }
 
-#default #socials {
+.socials {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -112,9 +100,17 @@ button {
   width: 100%;
 }
 
-#default #socials img {
+.socials img {
   height: 30px;
 }
+
+/* ----------------------------------------- */
+/* ---------------- DEFAULT ---------------- */
+/* ----------------------------------------- */
+
+/* ---------------- NAVBAR ---------------- */
+
+/* ---------------- FOOTER ---------------- */
 
 /* ----------------------------------------- */
 /* ---------------- 90s ---------------- */
