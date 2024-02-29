@@ -54,12 +54,15 @@ html {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: var(--primary-color);
 }
 
 body {
   margin: 0;
   padding: 0;
+}
+
+main {
+  padding: 0 1em;
 }
 
 ul {
@@ -79,7 +82,7 @@ button {
   flex-wrap: wrap;
   width: 100%;
   box-sizing: border-box;
-  padding: 1.5em;
+  padding: 1em;
 }
 
 .app-navigation ul {
@@ -99,7 +102,7 @@ button {
   flex-wrap: wrap;
   width: 100%;
   box-sizing: border-box;
-  padding: 1.5em;
+  padding: 1em;
 }
 
 .socials {
