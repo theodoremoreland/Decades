@@ -31,11 +31,29 @@
 /* --------------------------------------------------------------------------------  */
 
 :root {
-  --primary-color: rgb(219, 222, 227);
-  --secondary-color: rgb(14, 17, 40);
-  --tertiary-color: #18181c;
-  --quinary-color: rgb(0, 171, 245);
-  --quaternary-color: rgb(255, 95, 104);
+  --primary-color-nineties: rgb(177, 58, 26);
+  --secondary-color-nineties: rgb(130, 44, 117);
+  --tertiary-color-nineties: rgb(40, 126, 159);
+  --quinary-color-nineties: rgb(22, 77, 177);
+  --quaternary-color-nineties: rgb(179, 51, 108);
+
+  --primary-color-two-thousands: rgb(36, 213, 19);
+  --secondary-color-two-thousands: rgb(222, 25, 193);
+  --tertiary-color-two-thousands: rgb(66, 153, 222);
+  --quinary-color-two-thousands: rgb(255, 98, 1);
+  --quaternary-color-two-thousands: rgb(227, 48, 87);
+
+  --primary-color-two-thousand-tens: rgb(254, 60, 113);
+  --secondary-color-two-thousand-tens: rgb(43, 213, 102);
+  --tertiary-color-two-thousand-tens: rgb(0, 129, 254);
+  --quinary-color-two-thousand-tens: rgb(239, 182, 191);
+  --quaternary-color-two-thousand-tens: rgb(200, 110, 76);
+
+  --primary-color-two-thousand-twenties: rgb(219, 222, 227);
+  --secondary-color-two-thousand-twenties: rgb(14, 17, 40);
+  --tertiary-color-two-thousand-twenties: #18181c;
+  --quinary-color-two-thousand-twenties: rgb(0, 171, 245);
+  --quaternary-color-two-thousand-twenties: rgb(255, 95, 104);
 
   --font-family-default: sarabun-regular;
   --font-family-nineties: Arial;
@@ -112,7 +130,6 @@ button {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  width: 100%;
 }
 
 .socials img {
@@ -125,9 +142,12 @@ button {
 /* --------------------------------------------------------------------------------  */
 /* --------------------------------------------------------------------------------  */
 
-body#default,
-body#resources {
+body#default {
   font-family: var(--font-family-default);
+}
+
+body#default ul {
+  list-style: none;
 }
 
 /* --------------------------------------------------------------------------------  */
