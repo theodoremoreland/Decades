@@ -169,6 +169,11 @@ body#default .app-navigation a {
   color: var(--primary-color-two-thousand-twenties);
 }
 
+body#default .app-navigation a:hover,
+body#default .app-navigation a:active {
+  color: var(--quaternary-color-two-thousand-twenties);
+}
+
 body#default header {
   display: flex;
   flex-direction: row;
@@ -298,6 +303,19 @@ body#default ul {
 body#default .app-footer {
   color: var(--primary-color-two-thousand-twenties);
   background-color: var(--tertiary-color-two-thousand-twenties);
+}
+
+body#default .app-footer .source-code {
+  filter: invert(1);
+}
+
+body#default .app-footer img:hover,
+body#default .app-footer img:active {
+  opacity: 0.5;
+}
+
+body#default .app-footer img:active {
+  transform: scale(0.9);
 }
 
 /* --------------------------------------------------------------------------------  */
