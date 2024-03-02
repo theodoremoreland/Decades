@@ -281,10 +281,13 @@ body#default section .char {
 }
 
 body#default section .char > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   box-sizing: border-box;
   text-align: left;
-  padding: 0 2em;
-  width: 100%;
+  width: 60%;
 }
 
 body#default section .char li {
