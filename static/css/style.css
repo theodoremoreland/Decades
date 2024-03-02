@@ -85,7 +85,7 @@ body {
 
 main {
   box-sizing: border-box;
-  padding: 0 1em;
+  padding: 0;
   width: 100%;
 }
 
@@ -257,6 +257,24 @@ body#default section h2 {
   margin: 0;
   padding: 0;
   font-size: 2vw;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
+
+body#default section#nineties h2 {
+  border-bottom-color: var(--primary-color-nineties);
+}
+
+body#default section#two-thousands h2 {
+  border-bottom-color: var(--primary-color-two-thousands);
+}
+
+body#default section#two-thousand-tens h2 {
+  border-bottom-color: var(--primary-color-two-thousand-tens);
+}
+
+body#default section#two-thousand-twenties h2 {
+  border-bottom-color: var(--secondary-color-two-thousand-twenties);
 }
 
 body#default section .examples {
@@ -266,7 +284,7 @@ body#default section .examples {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  width: 33vw;
+  width: 33.33vw;
   border-top: var(--primary-color-two-thousand-twenties) 1px solid;
   border-bottom: var(--primary-color-two-thousand-twenties) 1px solid;
 }
