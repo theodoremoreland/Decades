@@ -84,7 +84,9 @@ body {
 }
 
 main {
+  box-sizing: border-box;
   padding: 0 1em;
+  width: 100%;
 }
 
 ul {
@@ -136,8 +138,13 @@ button {
   gap: 10px;
 }
 
+.copyright {
+  margin: 0;
+  padding: 0;
+}
+
 .socials img {
-  height: 30px;
+  height: 25px;
 }
 
 /* --------------------------------------------------------------------------------  */
@@ -205,11 +212,78 @@ body#default header #years {
   font-weight: bold;
 }
 
-body#default header .year {
+body#default main {
+  position: relative;
+  flex-grow: 1;
 }
 
-body#default main {
-  flex-grow: 1;
+body#default section {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  width: 100%;
+}
+
+body#default section h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.33vw;
+  margin: 0;
+  padding: 0;
+  font-size: 2vw;
+}
+
+body#default section .examples {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 33vw;
+  border-top: var(--primary-color-two-thousand-twenties) 1px solid;
+  border-bottom: var(--primary-color-two-thousand-twenties) 1px solid;
+}
+
+body#default section .example {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #18181c;
+}
+
+body#default section .example img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+body#default section .char {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 33.33vw;
+}
+
+body#default section .char > * {
+  box-sizing: border-box;
+  text-align: left;
+  padding: 0 2em;
+  width: 100%;
+}
+
+body#default section .char li {
+  margin: 1em 0;
 }
 
 body#default a {
@@ -218,6 +292,11 @@ body#default a {
 
 body#default ul {
   list-style: none;
+}
+
+body#default .app-footer {
+  color: var(--primary-color-two-thousand-twenties);
+  background-color: var(--tertiary-color-two-thousand-twenties);
 }
 
 /* --------------------------------------------------------------------------------  */
