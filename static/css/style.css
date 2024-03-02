@@ -307,22 +307,24 @@ body#default section .char > * {
 
 body#default section .char > p {
   padding-bottom: 0.5em;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
 }
 
 body#default section#nineties .char > p {
-  border-bottom: var(--primary-color-nineties) 1px solid;
+  border-bottom-color: var(--primary-color-nineties);
 }
 
 body#default section#two-thousands .char > p {
-  border-bottom: var(--primary-color-two-thousands) 1px solid;
+  border-bottom-color: var(--primary-color-two-thousands);
 }
 
 body#default section#two-thousand-tens .char > p {
-  border-bottom: var(--primary-color-two-thousand-tens) 1px solid;
+  border-bottom-color: var(--primary-color-two-thousand-tens);
 }
 
 body#default section#two-thousand-twenties .char > p {
-  border-bottom: var(--secondary-color-two-thousand-twenties) 1px solid;
+  border-bottom-color: var(--secondary-color-two-thousand-twenties);
 }
 
 body#default section .char li {
