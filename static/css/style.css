@@ -194,6 +194,7 @@ body#default header #statement {
 
 body#default header #title {
   font-size: 10vw;
+  font-style: oblique;
 }
 
 body#default header #statement {
@@ -263,7 +264,6 @@ body#default section .example img {
   object-fit: fill;
   height: 100%;
   width: 100%;
-  display: none;
 }
 
 body#default section .char {
@@ -284,6 +284,7 @@ body#default section .char > * {
 
 body#default section .char li {
   margin: 1em 0;
+  list-style: square;
 }
 
 body#default a {
