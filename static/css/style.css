@@ -68,15 +68,19 @@
 /* --------------------------------------------------------------------------------  */
 /* --------------------------------------------------------------------------------  */
 
-html {
+html,
+body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
 }
 
 main {
@@ -144,6 +148,14 @@ button {
 
 body#default {
   font-family: var(--font-family-default);
+}
+
+body#default main {
+  flex-grow: 1;
+}
+
+body#default a {
+  text-decoration: none;
 }
 
 body#default ul {
