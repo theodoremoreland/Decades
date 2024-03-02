@@ -158,6 +158,16 @@ body#default {
   background-color: var(--primary-color-two-thousand-twenties);
 }
 
+body#default a {
+  text-decoration: none;
+}
+
+body#default ul {
+  list-style: none;
+}
+
+/* ______ NAV ______ */
+
 body#default .app-navigation {
   z-index: 2;
   position: fixed;
@@ -173,6 +183,8 @@ body#default .app-navigation a:hover,
 body#default .app-navigation a:active {
   color: var(--quaternary-color-two-thousand-twenties);
 }
+
+/* ______ HEADER ______ */
 
 body#default header {
   display: flex;
@@ -216,7 +228,10 @@ body#default header #years {
   width: 30vw;
   font-size: 5vw;
   font-weight: bold;
+  font-style: oblique;
 }
+
+/* ______ MAIN ______ */
 
 body#default main {
   position: relative;
@@ -229,7 +244,7 @@ body#default section {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 110vh;
+  height: 105vh;
   width: 100%;
 }
 
@@ -290,18 +305,17 @@ body#default section .char > * {
   width: 60%;
 }
 
+body#default section .char > p {
+  padding-bottom: 0.5em;
+  border-bottom: var(--primary-color-two-thousand-tens) 3px solid;
+}
+
 body#default section .char li {
-  margin: 1em 0;
+  margin: 0.5em 0 0.5em 1em;
   list-style: square;
 }
 
-body#default a {
-  text-decoration: none;
-}
-
-body#default ul {
-  list-style: none;
-}
+/* ______ FOOTER ______ */
 
 body#default .app-footer {
   color: var(--primary-color-two-thousand-twenties);
