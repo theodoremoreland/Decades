@@ -148,6 +148,64 @@ button {
 
 body#default {
   font-family: var(--font-family-default);
+  background-color: var(--primary-color-two-thousand-twenties);
+}
+
+body#default .app-navigation {
+  z-index: 2;
+  position: fixed;
+  color: var(--primary-color-two-thousand-twenties);
+  background-color: var(--tertiary-color-two-thousand-twenties);
+}
+
+body#default .app-navigation a {
+  color: var(--primary-color-two-thousand-twenties);
+}
+
+body#default header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+}
+
+body#default header #title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  gap: 2em;
+}
+
+body#default header #title,
+body#default header #subtitle,
+body#default header #statement {
+  margin: 0;
+  padding: 0;
+}
+
+body#default header #title {
+  font-size: 10vw;
+}
+
+body#default header #statement {
+  font-size: 1.2em;
+}
+
+body#default header #years {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 0 1em;
+  width: 30vw;
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+body#default header .year {
 }
 
 body#default main {
