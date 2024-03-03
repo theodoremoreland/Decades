@@ -486,8 +486,8 @@ body#nineties main section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
-  padding: 0 40px;
+  align-items: center;
+  padding: 0 10px;
 }
 
 body#nineties main li {
@@ -524,7 +524,6 @@ body#nineties main li:nth-of-type(5) h2 {
 }
 
 body#nineties aside {
-  margin-top: 65px;
   padding: 0 60px 0 0;
   flex-grow: 1;
 }
@@ -539,7 +538,10 @@ body#nineties aside ul {
 
 body#nineties aside li {
   list-style: none;
+  padding: 10px;
   margin: 65px 0;
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255, 255, 255, 0.5),
+    inset -0.2em -0.2em 0.2em 0 rgba(0, 0, 0, 0.5);
 }
 
 body#nineties aside li img {
