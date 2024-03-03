@@ -288,6 +288,14 @@ body#two-thousand-twenties main {
   flex-grow: 1;
 }
 
+body#default #content {
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 0) 0%,
+    var(--tertiary-color-two-thousand-twenties) 149%
+  );
+}
+
 body#default section {
   position: relative;
   display: flex;
@@ -296,6 +304,14 @@ body#default section {
   align-items: center;
   height: 100vh;
   width: 100%;
+}
+
+body#default section#two-thousand-tens {
+  color: var(--primary-color-two-thousand-twenties);
+}
+
+body#default section#two-thousand-twenties {
+  color: var(--primary-color-two-thousand-twenties);
 }
 
 body#default section .header-wrapper {
@@ -391,6 +407,7 @@ body#default section .char {
   align-items: center;
   height: 100%;
   width: 33.33vw;
+  font-size: 1.1em;
 }
 
 body#default section .char > * {
