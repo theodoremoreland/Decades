@@ -173,6 +173,8 @@ body#default .app-navigation {
   position: fixed;
   color: var(--primary-color-two-thousand-twenties);
   background-color: var(--tertiary-color-two-thousand-twenties);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 body#default .app-navigation a {
@@ -244,8 +246,17 @@ body#default section {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 105vh;
+  height: 100vh;
   width: 100%;
+}
+
+body#default section .header-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.33vw;
 }
 
 body#default section h2 {
@@ -253,10 +264,11 @@ body#default section h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33.33vw;
+  width: 60%;
   margin: 0;
   padding: 0;
   font-size: 2vw;
+  font-style: oblique;
   border-bottom-width: 3px;
   border-bottom-style: solid;
 }
@@ -283,25 +295,21 @@ body#default section .examples {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: 1em;
   height: 100%;
   width: 33.33vw;
-  border-top: var(--primary-color-two-thousand-twenties) 1px solid;
-  border-bottom: var(--primary-color-two-thousand-twenties) 1px solid;
+  padding: 0;
+  margin: 0;
 }
 
 body#default section .example {
   position: relative;
-  height: 100%;
+  height: calc(100% / 3.8);
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #18181c;
-}
-
-body#default section .example img {
-  object-fit: fill;
-  height: 100%;
-  width: 100%;
+  border-radius: 5px;
 }
 
 body#default section .char {
