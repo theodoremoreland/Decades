@@ -322,7 +322,10 @@ body#default section .example {
   width: 100%;
   margin: 0;
   padding: 0;
+  border: 1px solid var(--secondary-color-two-thousand-twenties);
   border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   transition: all 0.3s ease;
   animation: fade-in 0.5s ease;
   animation-timeline: view();
