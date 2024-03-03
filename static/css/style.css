@@ -250,6 +250,11 @@ body#default header #years {
   font-size: 5vw;
   font-weight: bold;
   font-style: oblique;
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 0) 0%,
+    var(--tertiary-color-two-thousand-twenties) 149%
+  );
 }
 
 body#default header .year a {
