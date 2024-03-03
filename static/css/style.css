@@ -156,6 +156,11 @@ button {
 body#default {
   font-family: var(--font-family-default);
   background-color: var(--primary-color-two-thousand-twenties);
+  background: radial-gradient(
+    circle farthest-corner at top left,
+    rgb(250, 250, 250) 3%,
+    var(--primary-color-two-thousand-twenties) 90%
+  );
 }
 
 body#default a {
