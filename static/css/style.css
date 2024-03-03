@@ -459,3 +459,21 @@ body#two-thousand-tens {
 body#two-thousand-twenties {
   font-family: var(--font-family-two-thousand-twenties);
 }
+
+/* --------------------------------------------------------------------------------  */
+/* --------------------------------------------------------------------------------  */
+/* -----------------------------------  RESOURCES   --------------------------  */
+/* --------------------------------------------------------------------------------  */
+/* --------------------------------------------------------------------------------  */
+
+body#resources main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+body#resources .resources li {
+  margin: 1em 0;
+}
