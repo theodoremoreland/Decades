@@ -319,7 +319,7 @@ body#default section .example {
   animation: fade-in 0.5s ease;
   animation-timeline: view();
   animation-range-start: 0px;
-  animation-range-end: 525px;
+  animation-range-end: 500px;
 }
 
 @keyframes fade-in {
