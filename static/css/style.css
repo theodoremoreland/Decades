@@ -673,14 +673,6 @@ body#two-thousands .app-navigation li {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-body#two-thousands header {
-  background: linear-gradient(
-    180deg,
-    rgba(2, 0, 36, 0) 0%,
-    var(--primary-color-two-thousands) 149%
-  );
-}
-
 body#two-thousands header h1 {
   margin: 0;
   padding: 0.5em;
@@ -689,16 +681,21 @@ body#two-thousands header h1 {
 body#two-thousands main {
   width: calc(100% - 6em);
   padding: 0 3em;
-  background-color: rgba(0, 0, 0, 0.493);
+  border-bottom-left-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.64);
   flex-grow: 1;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 body#two-thousands article {
-  margin: 3.5em 0;
+  margin-bottom: 3.5em;
 }
 
 body#two-thousands article h2 {
   padding: 0.5em;
+  border-top-right-radius: 15px;
   background: rgb(184, 184, 184);
   background: linear-gradient(
     180deg,
