@@ -292,7 +292,7 @@ body#default #content {
   background: linear-gradient(
     180deg,
     rgba(2, 0, 36, 0) 0%,
-    var(--tertiary-color-two-thousand-twenties) 149%
+    var(--tertiary-color-two-thousand-twenties) 88%
   );
 }
 
