@@ -245,6 +245,28 @@ body#default header #years {
   font-style: oblique;
 }
 
+body#default header .year a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+body#default header .year:nth-of-type(1) a:hover {
+  color: var(--primary-color-nineties);
+}
+
+body#default header .year:nth-of-type(2) a:hover {
+  color: var(--primary-color-two-thousands);
+}
+
+body#default header .year:nth-of-type(3) a:hover {
+  color: var(--primary-color-two-thousand-tens);
+}
+
+body#default header .year:nth-of-type(4) a:hover {
+  color: var(--quinary-color-two-thousand-twenties);
+}
+
 /* ______ MAIN ______ */
 
 body#default main,
@@ -299,7 +321,7 @@ body#default section#two-thousand-tens h2 {
 }
 
 body#default section#two-thousand-twenties h2 {
-  border-bottom-color: var(--secondary-color-two-thousand-twenties);
+  border-bottom-color: var(--quinary-color-two-thousand-twenties);
 }
 
 body#default section .examples {
@@ -387,7 +409,7 @@ body#default section#two-thousand-tens .char > p {
 }
 
 body#default section#two-thousand-twenties .char > p {
-  border-bottom-color: var(--secondary-color-two-thousand-twenties);
+  border-bottom-color: var(--quinary-color-two-thousand-twenties);
 }
 
 body#default section .char li {
