@@ -153,7 +153,8 @@ button {
 /* --------------------------------------------------------------------------------  */
 /* --------------------------------------------------------------------------------  */
 
-body#default {
+body#default,
+body#resources {
   font-family: var(--font-family-default);
   background-color: var(--primary-color-two-thousand-twenties);
   background: radial-gradient(
@@ -163,17 +164,20 @@ body#default {
   );
 }
 
-body#default a {
+body#default a,
+body#resources a {
   text-decoration: none;
 }
 
-body#default ul {
+body#default ul,
+body#resources ul {
   list-style: none;
 }
 
 /* ______ NAV ______ */
 
-body#default .app-navigation {
+body#default .app-navigation,
+body#resources .app-navigation {
   z-index: 2;
   position: fixed;
   color: var(--primary-color-two-thousand-twenties);
@@ -182,12 +186,15 @@ body#default .app-navigation {
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
-body#default .app-navigation a {
+body#default .app-navigation a,
+body#resources .app-navigation a {
   color: var(--primary-color-two-thousand-twenties);
 }
 
 body#default .app-navigation a:hover,
-body#default .app-navigation a:active {
+body#default .app-navigation a:active,
+body#resources .app-navigation a:hover,
+body#resources .app-navigation a:active {
   color: var(--quaternary-color-two-thousand-twenties);
 }
 
@@ -240,7 +247,8 @@ body#default header #years {
 
 /* ______ MAIN ______ */
 
-body#default main {
+body#default main,
+body#resources main {
   position: relative;
   flex-grow: 1;
 }
@@ -386,21 +394,26 @@ body#default section .char li {
 
 /* ______ FOOTER ______ */
 
-body#default .app-footer {
+body#default .app-footer,
+body#resources .app-footer {
   color: var(--primary-color-two-thousand-twenties);
   background-color: var(--tertiary-color-two-thousand-twenties);
 }
 
-body#default .app-footer .source-code {
+body#default .app-footer .source-code,
+body#resources .app-footer .source-code {
   filter: invert(1);
 }
 
 body#default .app-footer img:hover,
-body#default .app-footer img:active {
+body#default .app-footer img:active,
+body#resources .app-footer img:hover,
+body#resources .app-footer img:active {
   opacity: 0.5;
 }
 
-body#default .app-footer img:active {
+body#default .app-footer img:active,
+body#resources .app-footer img:active {
   transform: scale(0.9);
 }
 
