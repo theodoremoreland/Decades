@@ -154,7 +154,8 @@ button {
 /* --------------------------------------------------------------------------------  */
 
 body#default,
-body#resources {
+body#resources,
+body#two-thousand-twenties {
   font-family: var(--font-family-default);
   background-color: var(--primary-color-two-thousand-twenties);
   background: radial-gradient(
@@ -165,19 +166,22 @@ body#resources {
 }
 
 body#default a,
-body#resources a {
+body#resources a,
+body#two-thousand-twenties a {
   text-decoration: none;
 }
 
 body#default ul,
-body#resources ul {
+body#resources ul,
+body#two-thousand-twenties ul {
   list-style: none;
 }
 
 /* ______ NAV ______ */
 
 body#default .app-navigation,
-body#resources .app-navigation {
+body#resources .app-navigation,
+body#two-thousand-twenties .app-navigation {
   z-index: 2;
   position: fixed;
   color: var(--primary-color-two-thousand-twenties);
@@ -187,14 +191,17 @@ body#resources .app-navigation {
 }
 
 body#default .app-navigation a,
-body#resources .app-navigation a {
+body#resources .app-navigation a,
+body#two-thousand-twenties .app-navigation a {
   color: var(--primary-color-two-thousand-twenties);
 }
 
 body#default .app-navigation a:hover,
 body#default .app-navigation a:active,
 body#resources .app-navigation a:hover,
-body#resources .app-navigation a:active {
+body#resources .app-navigation a:active,
+body#two-thousand-twenties .app-navigation a:hover,
+body#two-thousand-twenties .app-navigation a:active {
   color: var(--quaternary-color-two-thousand-twenties);
 }
 
@@ -270,7 +277,8 @@ body#default header .year:nth-of-type(4) a:hover {
 /* ______ MAIN ______ */
 
 body#default main,
-body#resources main {
+body#resources main,
+body#two-thousand-twenties main {
   position: relative;
   flex-grow: 1;
 }
@@ -420,20 +428,24 @@ body#default section .char li {
 /* ______ FOOTER ______ */
 
 body#default .app-footer,
-body#resources .app-footer {
+body#resources .app-footer,
+body#two-thousand-twenties .app-footer {
   color: var(--primary-color-two-thousand-twenties);
   background-color: var(--tertiary-color-two-thousand-twenties);
 }
 
 body#default .app-footer .source-code,
-body#resources .app-footer .source-code {
+body#resources .app-footer .source-code,
+body#two-thousand-twenties .app-footer .source-code {
   filter: invert(1);
 }
 
 body#default .app-footer img:hover,
 body#default .app-footer img:active,
 body#resources .app-footer img:hover,
-body#resources .app-footer img:active {
+body#resources .app-footer img:active,
+body#two-thousand-twenties .app-footer img:hover,
+body#two-thousand-twenties .app-footer img:active {
   opacity: 0.5;
 }
 
@@ -450,10 +462,7 @@ body#resources .app-footer img:active {
 
 body#nineties {
   font-family: var(--font-family-nineties);
-}
-
-body#nineties .app-navigation {
-  background-color: white;
+  background-color: yellow;
 }
 
 body#nineties .app-navigation li {
@@ -482,12 +491,18 @@ body#nineties main {
   padding: 0 1em;
 }
 
+body#nineties section > ul {
+  flex-grow: 1;
+}
+
 body#nineties main section {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 50px;
   padding: 0 10px;
+  width: 85%;
 }
 
 body#nineties main li {
@@ -524,8 +539,7 @@ body#nineties main li:nth-of-type(5) h2 {
 }
 
 body#nineties aside {
-  padding: 0 60px 0 0;
-  flex-grow: 1;
+  padding: 0;
 }
 
 body#nineties aside ul {
