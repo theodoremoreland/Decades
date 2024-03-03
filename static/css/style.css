@@ -719,6 +719,7 @@ body#two-thousand-tens section {
 
 body#two-thousand-tens section > img {
   width: 45vw;
+  aspect-ratio: 4/3;
   border: 2px solid var(--primary-color-two-thousand-tens);
 }
 
