@@ -713,7 +713,7 @@ body#two-thousand-tens section {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 50vh;
+  height: 60vh;
   padding: 3em;
 }
 
@@ -727,10 +727,16 @@ body#two-thousand-tens article {
   padding: 1em;
 }
 
+body#two-thousand-tens article h2 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid var(--primary-color-two-thousand-tens);
+}
+
 body#two-thousand-tens .app-footer {
   color: var(--primary-color-two-thousand-tens);
   font-weight: bold;
   background-color: var(--secondary-color-two-thousand-tens);
+  margin-top: 100px;
   padding: 1em 3em;
 }
 
