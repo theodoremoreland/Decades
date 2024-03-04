@@ -306,20 +306,8 @@ body#default section {
   width: 100%;
 }
 
-body#default section#two-thousands {
-  background: -webkit-linear-gradient(
-    var(--primary-color-two-thousand-twenties),
-    rgb(255, 255, 255)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-body#default section#two-thousand-tens {
-  color: var(--primary-color-two-thousand-twenties);
-}
-
+body#default section#two-thousands,
+body#default section#two-thousand-tens,
 body#default section#two-thousand-twenties {
   color: var(--primary-color-two-thousand-twenties);
 }
@@ -729,7 +717,7 @@ body#two-thousands article p {
 }
 
 body#two-thousands .app-footer {
-  padding: 1em 0;
+  padding: 1em 0.5em;
 }
 
 body#two-thousands .app-footer a {
