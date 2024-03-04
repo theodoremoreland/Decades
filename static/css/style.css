@@ -598,6 +598,10 @@ body#nineties aside li {
     inset -0.2em -0.2em 0.2em 0 rgba(0, 0, 0, 0.5);
 }
 
+body#nineties aside li:hover {
+  transform: scale(1.1);
+}
+
 body#nineties aside li img {
   height: 50px;
 }
