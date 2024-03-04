@@ -664,7 +664,7 @@ body#two-thousands .app-navigation li {
 
 body#two-thousands header h1 {
   margin: 0;
-  padding: 0.5em 0 0 0;
+  padding: 0.7em 0;
   font-size: 3em;
   letter-spacing: 0.1em;
 }
@@ -685,6 +685,7 @@ body#two-thousands article {
 }
 
 body#two-thousands article h2 {
+  margin-top: 0;
   padding: 0.5em;
   border-top-right-radius: 15px;
   background: rgb(184 184 184 / 10%);
