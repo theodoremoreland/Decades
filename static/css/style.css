@@ -798,10 +798,10 @@ body#two-thousand-tens header::after {
 
 body#two-thousand-tens header h1 {
   font-weight: bold;
-  font-size: 7vw;
+  font-size: 5vw;
   color: var(--primary-color-two-thousand-tens);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin: 0;
+  margin: 0 -0.6em 0 0;
   padding: 0;
   letter-spacing: 0.6em;
   mix-blend-mode: hard-light;
