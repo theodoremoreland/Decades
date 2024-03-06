@@ -234,6 +234,16 @@ body#default header #title-container::before {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  animation: invert-colors 5s infinite alternate;
+}
+
+@keyframes invert-colors {
+  from {
+    filter: invert(1);
+  }
+  to {
+    filter: invert(0);
+  }
 }
 
 body#default header #title,
@@ -266,13 +276,13 @@ body#default header #years {
   font-style: oblique;
   background: linear-gradient(
     0deg,
-    rgba(2, 0, 36, 0) 0%,
-    var(--tertiary-color-two-thousand-twenties) 149%
+    rgba(2, 0, 36, 0) 4%,
+    var(--tertiary-color-two-thousand-twenties) 90%
   );
 }
 
 body#default header .year a {
-  color: black;
+  color: var(--primary-color-two-thousand-twenties);
   text-decoration: none;
   transition: all 0.3s ease;
 }
