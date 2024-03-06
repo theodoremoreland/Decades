@@ -805,6 +805,7 @@ body#two-thousand-tens header h1 {
 
 body#two-thousand-tens header img {
   width: 50vw;
+  height: 50vh;
   border: 2px solid white;
   mix-blend-mode: exclusion;
 }
