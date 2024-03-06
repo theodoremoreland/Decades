@@ -215,7 +215,6 @@ body#default header #title-container {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  gap: 2em;
   color: var(--primary-color-two-thousand-twenties);
   background-color: #18181cbd;
 }
@@ -260,7 +259,7 @@ body#default header #title {
 
 body#default header #statement {
   font-size: 1.2em;
-  padding: 1em;
+  padding: 1em 0 2.5em 0;
 }
 
 body#default header #years {
