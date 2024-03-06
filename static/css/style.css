@@ -731,6 +731,8 @@ body#two-thousands article p {
 }
 
 body#two-thousands .app-footer {
+  justify-content: center;
+  gap: 20px;
   padding: 1em 0.5em;
 }
 
