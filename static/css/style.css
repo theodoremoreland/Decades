@@ -811,21 +811,22 @@ body#two-thousand-tens header img {
 }
 
 body#two-thousand-tens section {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 60vh;
   padding: 3em;
 }
 
 body#two-thousand-tens section > img {
-  width: 45vw;
+  width: 50%;
   aspect-ratio: 4/3;
   border: 2px solid var(--primary-color-two-thousand-tens);
 }
 
 body#two-thousand-tens article {
+  width: 50%;
   padding: 1em;
 }
 
