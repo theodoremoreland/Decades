@@ -638,6 +638,7 @@ body#nineties aside li img {
 body#nineties .copyright {
   font-weight: bold;
   color: var(--primary-color-nineties);
+  padding: 1em 0;
 }
 
 /* --------------------------------------------------------------------------------  */
