@@ -435,6 +435,17 @@ body#default section .website-info {
   text-align: center;
   width: 100%;
   background-color: var(--tertiary-color-two-thousand-twenties);
+  background: linear-gradient(
+    0deg,
+    rgb(0, 0, 0) 4%,
+    var(--tertiary-color-two-thousand-twenties) 90%
+  );
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+body#default section .website-info p {
+  margin: 0.3em 0;
 }
 
 body#default section .card img {
