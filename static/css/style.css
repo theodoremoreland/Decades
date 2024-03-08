@@ -400,6 +400,19 @@ body#default section .card {
 
 body#default section .card:nth-of-type(1) {
   margin-right: -35%;
+  animation: slide-out-left 0.5s ease;
+  animation-timeline: view();
+  animation-range-start: 0px;
+  animation-range-end: 525px;
+}
+
+@keyframes slide-out-left {
+  from {
+    margin-right: -100%;
+  }
+  to {
+    margin-right: -35%;
+  }
 }
 
 body#default section .card:nth-of-type(2) {
@@ -416,6 +429,19 @@ body#default section .card:nth-of-type(2) {
 
 body#default section .card:nth-of-type(3) {
   margin-left: -35%;
+  animation: slide-out-right 0.5s ease;
+  animation-timeline: view();
+  animation-range-start: 0px;
+  animation-range-end: 525px;
+}
+
+@keyframes slide-out-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: -35%;
+  }
 }
 
 body#default section .card:nth-of-type(1) img,
@@ -457,32 +483,6 @@ body#default section .card img {
   object-fit: fill;
   object-position: center;
   border-radius: 50%;
-}
-
-body#default section .example {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: top;
-  margin: 0;
-  padding: 0;
-  transition: all 0.3s ease;
-  animation: fade-in 0.5s ease;
-  animation-timeline: view();
-  animation-range-start: 0px;
-  animation-range-end: 500px;
-}
-
-@keyframes fade-in {
-  from {
-    scale: 0.8;
-    opacity: 0;
-  }
-  to {
-    scale: 1;
-    opacity: 1;
-  }
 }
 
 body#default section .char {
