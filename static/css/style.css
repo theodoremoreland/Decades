@@ -658,29 +658,30 @@ body#nineties main li {
 
 body#nineties main li h2 {
   padding: 15px 20px;
+  border: solid 1px #4169e1b2;
   border-radius: 30px;
   text-shadow: 3px 3px 10px red;
   background-color: #4169e1b2;
 }
 
 body#nineties main li:nth-of-type(1) h2 {
-  box-shadow: var(--primary-color-nineties) 10px -10px 0px -3px;
+  box-shadow: var(--primary-color-nineties) 10px -10px 8px -3px;
 }
 
 body#nineties main li:nth-of-type(2) h2 {
-  box-shadow: var(--secondary-color-nineties) 10px -10px 0px -3px;
+  box-shadow: var(--secondary-color-nineties) 10px -10px 8px -3px;
 }
 
 body#nineties main li:nth-of-type(3) h2 {
-  box-shadow: var(--tertiary-color-nineties) 10px -10px 0px -3px;
+  box-shadow: var(--tertiary-color-nineties) 10px -10px 8px -3px;
 }
 
 body#nineties main li:nth-of-type(4) h2 {
-  box-shadow: var(--quaternary-color-nineties) 10px -10px 0px -3px;
+  box-shadow: var(--quaternary-color-nineties) 10px -10px 8px -3px;
 }
 
 body#nineties main li:nth-of-type(5) h2 {
-  box-shadow: var(--quinary-color-nineties) 10px -10px 0px -3px;
+  box-shadow: var(--quinary-color-nineties) 10px -10px 8px -3px;
 }
 
 body#nineties aside {
