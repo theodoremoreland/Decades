@@ -793,10 +793,20 @@ body#two-thousands .app-navigation li {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+body#two-thousands header {
+  background-image: url("https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg");
+  background-attachment: local;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  filter: hue-rotate(150deg);
+}
+
 body#two-thousands header h1 {
-  margin: 0;
-  padding: 0.7em 0;
+  margin: 1em 0;
+  padding: 0.7em;
   font-size: 3em;
+  text-shadow: 2px 2px 4px rgb(255, 255, 0);
   letter-spacing: 0.1em;
 }
 
