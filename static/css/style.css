@@ -630,6 +630,10 @@ body#nineties header img {
   height: 100px;
 }
 
+body#nineties header img:nth-of-type(2) {
+  filter: hue-rotate(35deg);
+}
+
 body#nineties main {
   display: flex;
   flex-direction: column;
