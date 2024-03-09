@@ -571,7 +571,7 @@ body#resources .app-footer img:active {
 body#nineties {
   color: white;
   font-family: var(--font-family-nineties);
-  cursor: url("../images/icons/sword.png"), auto;
+  cursor: url("../images/icons/sword-white.png"), auto;
 }
 
 body#nineties .bg {
