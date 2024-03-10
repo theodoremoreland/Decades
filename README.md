@@ -11,6 +11,7 @@ _This was an assignment for Lindenwood University's Fundamentals of HTML course 
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
 - [Future improvements](#future-improvements)
+- [How to run](#how-to-run)
 - [Screenshots](#screenshots)
 
 ## Overview
@@ -38,6 +39,11 @@ While the assignment had a few requirements, the overall concept was up to us. I
 - Add all citations of images and sources used throughout project
 - Get screenshots that include mouse cursor where relevant (snipping tool doesn't support this feature yet)
 - Deploy
+
+## How to run
+
+1. Clone this repo.
+2. Open `default.html` in a web browser.
 
 ## Screenshots
 
