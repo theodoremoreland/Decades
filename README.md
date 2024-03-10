@@ -5,13 +5,15 @@ Web pages exploring the evolution of website design trends across the 90s, 2000s
 _This was an assignment for Lindenwood University's Fundamentals of HTML course (2024)._
 
 ## Table of Contents
-- [Overview]()
-- [Technologies Used]()
-- [Future improvements]()
+
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [Future improvements](#future-improvements)
 
 ## Overview
 
-This project was a homework assignment for Lindenwood University's *Fundamentals of HTML* course (2024). The requirements for this assignment goes as follows:
+This project was a homework assignment for Lindenwood University's _Fundamentals of HTML_ course (2024). The requirements for this assignment goes as follows:
+
 - 6 HTML Pages
 - No JavaScript
 - No networking, HTTP requests, etc
@@ -24,10 +26,9 @@ While the assignment had a few requirements, the overall concept was up to us. I
 - HTML5
 - CSS3
 
-
 ## Future improvements
 
 - Complete first draft of 2020s page
 - Test and modify for responsiveness
 - Refactor and abstract style.css into separate files
-- Add all citations of images and sources used throughout project 
+- Add all citations of images and sources used throughout project
