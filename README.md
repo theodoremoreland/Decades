@@ -32,10 +32,61 @@ While the assignment had a few requirements, the overall concept was up to us. I
 ## Future improvements
 
 - Complete first draft of 2020s page
-- Test and modify for responsiveness
+- Test and modify for responsiveness (only tested on one screen size at the moment)
 - Refactor and abstract style.css into separate files
+- Continue research and correct falsities
 - Add all citations of images and sources used throughout project
 
 ## Screenshots
 
-<img src="presentation/thumbnail.png" width="600">
+### Home
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/1.png" width="800">
+
+### Home #2 (scrolled down)
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/2.png" width="800">
+
+### Home #3 (scrolled down)
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/3.png" width="800">
+
+### Home #4 (scrolled down)
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/4.png" width="800">
+
+### Home #5 (scrolled down)
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/5.png" width="800">
+
+### 1990s Page
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/6.png" width="800">
+
+### 2000s Page
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/7.png" width="800">
+
+### 2010s Page
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/8.png" width="800">
+
+### 2010s Page #2 (scrolled down)
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/9.png" width="800">
+
+### 2010s Page #3 (scrolled down)
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/10.png" width="800">
+
+### 2010s Page #4 (scrolled down)
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/11.png" width="800">
+
+### 2010s Page #5 (scrolled down)
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/12.png" width="800">
+
+### Resources Page
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/13.png" width="800">
