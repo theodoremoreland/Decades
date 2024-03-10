@@ -690,6 +690,10 @@ body#nineties main li:nth-of-type(5) h2 {
   box-shadow: var(--quinary-color-nineties) 10px -10px 8px -3px;
 }
 
+body#nineties main li p {
+  padding: 0 20px;
+}
+
 body#nineties aside {
   padding: 0;
 }
