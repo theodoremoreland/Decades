@@ -22,7 +22,7 @@ This project was a homework assignment for Lindenwood University's _Fundamentals
 - No networking, HTTP requests, etc
 - 1 style.css file
 
-While the assignment had a few requirements, the overall concept was up to us. I chose to make a few webpages that highlighted web design trends across four decades of web design. The landing page would serve as the introduction and overview for the concept, one page would be dedicated to resources and citations, meanwhile the other 4 pages would each exemplify trends for a corresponding decade.
+While the assignment had a few requirements, the overall concept was up to us. I chose to make a few webpages that highlighted web design trends across four decades of web design. The landing page would serve as the introduction and overview for the concept, one page would be dedicated to resources and citations, meanwhile the other 4 pages would each exemplify trends for a corresponding decade. In part due to the requirements of the homework, I chose to limit the focus on HTML and CSS only despite the fact that technologies such as Flash and JavaScript have been integral in defining trends throughout.
 
 ## Technologies Used
 
