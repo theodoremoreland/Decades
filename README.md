@@ -2,6 +2,8 @@
 
 Web pages exploring the evolution of website design trends across the 90s, 2000s, 2010s, and 2020s.
 
+<img src="presentation/thumbnail.png" width="600">
+
 _This was an assignment for Lindenwood University's Fundamentals of HTML course (2024)._
 
 ## Table of Contents
@@ -9,6 +11,7 @@ _This was an assignment for Lindenwood University's Fundamentals of HTML course 
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
 - [Future improvements](#future-improvements)
+- [Screenshots](#screenshots)
 
 ## Overview
 
@@ -32,3 +35,7 @@ While the assignment had a few requirements, the overall concept was up to us. I
 - Test and modify for responsiveness
 - Refactor and abstract style.css into separate files
 - Add all citations of images and sources used throughout project
+
+## Screenshots
+
+<img src="presentation/thumbnail.png" width="600">
