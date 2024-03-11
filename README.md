@@ -33,7 +33,8 @@ While the assignment had a few requirements, the overall concept was up to us. I
 ## Future improvements
 
 - Complete first draft of 2020s page
-- Test and modify for responsiveness (only tested on one screen size at the moment)
+- Test and modify for responsiveness on ultrawide screens
+- Replace fixed background image effects for mobile
 - Refactor and abstract style.css into separate files
 - Continue research and correct falsities
 - Add all citations of images and sources used throughout project
