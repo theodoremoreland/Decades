@@ -596,6 +596,18 @@ body#nineties .bg {
   background-blend-mode: multiply;
 }
 
+body#nineties .app-navigation {
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  body#nineties .app-navigation {
+    flex-direction: row;
+    gap: 0px;
+  }
+}
+
 body#nineties a {
   cursor: url("../images/icons/sword-highlighted.png"), pointer;
 }
@@ -657,12 +669,19 @@ body#nineties section > ul {
 
 body#nineties main section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 0px;
   padding: 0 10px;
   width: 85%;
+}
+
+@media screen and (min-width: 768px) {
+  body#nineties main section {
+    flex-direction: row;
+    gap: 50px;
+  }
 }
 
 body#nineties main li {
@@ -702,12 +721,20 @@ body#nineties main li p {
 }
 
 body#nineties aside {
+  order: 2;
   padding: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  body#nineties aside {
+    order: initial;
+    width: auto;
+  }
 }
 
 body#nineties aside li:nth-of-type(1) {
   transform: rotate(-10deg);
-
   background-color: var(--tertiary-color-nineties);
 }
 
@@ -723,10 +750,16 @@ body#nineties aside li:nth-of-type(3) {
 
 body#nineties aside ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  body#nineties aside ul {
+    flex-direction: column;
+  }
 }
 
 body#nineties aside li {
@@ -741,7 +774,13 @@ body#nineties aside li:hover {
 }
 
 body#nineties aside li img {
-  height: 50px;
+  height: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  body#nineties aside li img {
+    height: 50px;
+  }
 }
 
 body#nineties .copyright {
