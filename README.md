@@ -38,6 +38,7 @@ While the assignment had a few requirements, the overall concept was up to us. I
 - Continue research and correct falsities
 - Add all citations of images and sources used throughout project
 - Get screenshots that include mouse cursor where relevant (snipping tool doesn't support this feature yet)
+- Add all images to local
 - Deploy
 
 ## How to run
