@@ -9,7 +9,7 @@ _This was an assignment for Lindenwood University's Fundamentals of HTML course 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Technologies Used](#technologies-used)
+- [Technologies used](#technologies-used)
 - [Future improvements](#future-improvements)
 - [How to run](#how-to-run)
 - [Screenshots](#screenshots)
@@ -25,7 +25,7 @@ This project was a homework assignment for Lindenwood University's _Fundamentals
 
 While the assignment had a few requirements, the overall concept was up to us. I chose to make a few webpages that highlighted web design trends across four decades of web design. The landing page would serve as the introduction and overview for the concept, one page would be dedicated to resources and citations, meanwhile the other 4 pages would each exemplify trends for a corresponding decade. In part due to the requirements of the homework, I chose to limit the focus on HTML and CSS only despite the fact that technologies such as Flash and JavaScript have been integral in defining trends throughout.
 
-## Technologies Used
+## Technologies used
 
 - HTML5
 - CSS3
@@ -33,13 +33,13 @@ While the assignment had a few requirements, the overall concept was up to us. I
 ## Future improvements
 
 - Complete first draft of 2020s page
-- Test and modify for responsiveness (only tested on one screen size at the moment)
+- Test and modify for responsiveness on ultrawide screens
+- Replace fixed background image effects for mobile
 - Refactor and abstract style.css into separate files
 - Continue research and correct falsities
 - Add all citations of images and sources used throughout project
 - Get screenshots that include mouse cursor where relevant (snipping tool doesn't support this feature yet)
 - Add all images to local
-- Deploy
 
 ## How to run
 
