@@ -990,15 +990,31 @@ body#two-thousand-tens li {
 body#two-thousand-tens .app-navigation {
   z-index: 2;
   position: fixed;
+  flex-direction: column;
+  gap: 1em;
   padding: 1em 3em;
   background-color: var(--secondary-color-two-thousand-tens);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
+@media screen and (min-width: 768px) {
+  body#two-thousand-tens .app-navigation {
+    flex-direction: row;
+    gap: unset;
+  }
+}
+
 body#two-thousand-tens .app-navigation ul {
   justify-content: space-around;
-  gap: 40px;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  body#two-thousand-tens .app-navigation ul {
+    justify-content: space-between;
+    gap: 40px;
+  }
 }
 
 body#two-thousand-tens .app-navigation a {
@@ -1039,7 +1055,7 @@ body#two-thousand-tens header::after {
 
 body#two-thousand-tens header h1 {
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 7.5vw;
   color: var(--primary-color-two-thousand-tens);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   margin: 0 -0.6em 0 0;
@@ -1048,31 +1064,66 @@ body#two-thousand-tens header h1 {
   mix-blend-mode: hard-light;
 }
 
+@media screen and (min-width: 768px) {
+  body#two-thousand-tens header h1 {
+    font-size: 5vw;
+  }
+}
+
 body#two-thousand-tens header img {
-  width: 50vw;
-  height: 50vh;
+  width: 80vw;
+  height: 40vh;
   border: 2px solid white;
   mix-blend-mode: exclusion;
+}
+
+@media screen and (min-width: 768px) {
+  body#two-thousand-tens header img {
+    width: 50vw;
+    height: 50vh;
+  }
 }
 
 body#two-thousand-tens section {
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 3em;
+  padding: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  body#two-thousand-tens section {
+    flex-direction: row;
+    padding: 3em;
+  }
 }
 
 body#two-thousand-tens section > img {
-  width: 50%;
+  /* The actual order doesn't matter as long as its consistent. */
+  order: 1;
+  width: 90%;
   aspect-ratio: 4/3;
   border: 2px solid var(--primary-color-two-thousand-tens);
 }
 
+@media screen and (min-width: 768px) {
+  body#two-thousand-tens section > img {
+    order: unset;
+    width: 50%;
+  }
+}
+
 body#two-thousand-tens article {
-  width: 50%;
+  width: 90%;
   padding: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  body#two-thousand-tens article {
+    width: 50%;
+  }
 }
 
 body#two-thousand-tens article h2 {
