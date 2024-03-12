@@ -905,6 +905,7 @@ body#two-thousands .app-navigation ul {
 
 body#two-thousands .app-navigation a {
   flex-grow: 1;
+  margin-bottom: -2px;
   color: black;
   text-decoration: none;
   font-weight: bold;
@@ -913,6 +914,7 @@ body#two-thousands .app-navigation a {
 @media screen and (min-width: 768px) {
   body#two-thousands .app-navigation a {
     flex-grow: unset;
+    margin-bottom: 0;
   }
 }
 
