@@ -1102,16 +1102,13 @@ body#two-thousand-tens .app-navigation a:hover {
 }
 
 body#two-thousand-tens header {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100vw;
   height: 100vh;
-  background-image: url("https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 body#two-thousand-tens header::after {
@@ -1142,6 +1139,19 @@ body#two-thousand-tens header h1 {
   }
 }
 
+body#two-thousand-tens header #hero {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body#two-thousand-tens header img {
   width: 80vw;
   height: 40vh;
@@ -1154,6 +1164,10 @@ body#two-thousand-tens header img {
     width: 50vw;
     height: 50vh;
   }
+}
+
+body#two-thousand-tens main {
+  background-color: var(--primary-color-two-thousand-twenties);
 }
 
 body#two-thousand-tens section {
@@ -1207,7 +1221,6 @@ body#two-thousand-tens .app-footer {
   color: var(--primary-color-two-thousand-tens);
   font-weight: bold;
   background-color: var(--secondary-color-two-thousand-tens);
-  margin-top: 100px;
   padding: 1em 3em;
 }
 
