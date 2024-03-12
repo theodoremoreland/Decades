@@ -870,7 +870,6 @@ body#two-thousands {
   color: white;
   font-family: var(--font-family-two-thousands);
   background-image: url("https://images.pexels.com/photos/3122779/pexels-photo-3122779.jpeg");
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
