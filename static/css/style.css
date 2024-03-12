@@ -870,7 +870,6 @@ body#two-thousands {
   color: white;
   font-family: var(--font-family-two-thousands);
   background-image: url("https://images.pexels.com/photos/3122779/pexels-photo-3122779.jpeg");
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -906,6 +905,7 @@ body#two-thousands .app-navigation ul {
 
 body#two-thousands .app-navigation a {
   flex-grow: 1;
+  margin-bottom: -2px;
   color: black;
   text-decoration: none;
   font-weight: bold;
@@ -914,6 +914,7 @@ body#two-thousands .app-navigation a {
 @media screen and (min-width: 768px) {
   body#two-thousands .app-navigation a {
     flex-grow: unset;
+    margin-bottom: 0;
   }
 }
 
@@ -1063,7 +1064,7 @@ body#two-thousand-tens .app-navigation {
   position: fixed;
   flex-direction: column;
   gap: 1em;
-  padding: 1em 3em;
+  padding: 0.5em;
   background-color: var(--secondary-color-two-thousand-tens);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -1073,6 +1074,7 @@ body#two-thousand-tens .app-navigation {
   body#two-thousand-tens .app-navigation {
     flex-direction: row;
     gap: unset;
+    padding: 1em 3em;
   }
 }
 
@@ -1101,16 +1103,13 @@ body#two-thousand-tens .app-navigation a:hover {
 }
 
 body#two-thousand-tens header {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100vw;
   height: 100vh;
-  background-image: url("https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 body#two-thousand-tens header::after {
@@ -1141,6 +1140,19 @@ body#two-thousand-tens header h1 {
   }
 }
 
+body#two-thousand-tens header #hero {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body#two-thousand-tens header img {
   width: 80vw;
   height: 40vh;
@@ -1153,6 +1165,10 @@ body#two-thousand-tens header img {
     width: 50vw;
     height: 50vh;
   }
+}
+
+body#two-thousand-tens main {
+  background-color: var(--primary-color-two-thousand-twenties);
 }
 
 body#two-thousand-tens section {
@@ -1206,7 +1222,6 @@ body#two-thousand-tens .app-footer {
   color: var(--primary-color-two-thousand-tens);
   font-weight: bold;
   background-color: var(--secondary-color-two-thousand-tens);
-  margin-top: 100px;
   padding: 1em 3em;
 }
 
