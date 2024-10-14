@@ -43,7 +43,7 @@ While the assignment had a few requirements, the overall concept was up to us. I
 ## How to run
 
 1. Clone this repo.
-2. Open `default.html` in a web browser.
+2. Open `index.html` in a web browser.
 
 ## Screenshots
 
