@@ -2,7 +2,7 @@
 
 Web pages exploring the evolution of website design trends across the 90s, 2000s, 2010s, and 2020s.
 
-<img src="presentation/thumbnail.png" width="600">
+<img src="presentation/thumbnail.webp" width="600">
 
 _This was an assignment for Lindenwood University's Fundamentals of HTML course (2024)._
 
@@ -33,7 +33,7 @@ While the assignment had a few requirements, the overall concept was up to us. I
 ## Future improvements
 
 - Complete first draft of 2020s page
-- Test and modify for responsiveness on ultrawide screens
+- Test and modify for responsiveness on ultra-wide screens
 - Refactor and abstract style.css into separate files
 - Continue research and correct falsities
 - Add all citations of images and sources used throughout project
@@ -49,7 +49,7 @@ While the assignment had a few requirements, the overall concept was up to us. I
 
 ### Home
 
-<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/1.png" width="800">
+<img src="presentation/thumbnail.webp" width="800">
 
 ### Home #2 (scrolled down)
 
