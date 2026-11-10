@@ -51,22 +51,6 @@ While the assignment had a few requirements, the overall concept was up to us. I
 
 <img src="presentation/thumbnail.webp" width="800">
 
-### Home #2 (scrolled down)
-
-<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/2.png" width="800">
-
-### Home #3 (scrolled down)
-
-<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/3.png" width="800">
-
-### Home #4 (scrolled down)
-
-<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/4.png" width="800">
-
-### Home #5 (scrolled down)
-
-<img src="https://dj8eg5xs13hf6.cloudfront.net/decades/5.png" width="800">
-
 ### 1990s Page
 
 <img src="https://dj8eg5xs13hf6.cloudfront.net/decades/6.png" width="800">
